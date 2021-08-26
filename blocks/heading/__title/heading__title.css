@@ -1,0 +1,9 @@
+.heading__title {
+  margin: auto;
+  max-width: 790px;
+  color: white;
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+}

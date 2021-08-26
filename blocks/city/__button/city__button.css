@@ -1,0 +1,17 @@
+.city__button {
+  margin: 0;
+  grid-area:button;
+  background-color: #0278fe;
+  width: 248px;
+  height: 48px;
+  border-radius: 4px;
+  justify-content: flex-start;
+  transition: 0.3s;
+  border: 0;
+}
+
+.city__button:hover{
+  background: #0063D2;
+
+
+}

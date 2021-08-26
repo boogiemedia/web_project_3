@@ -1,0 +1,5 @@
+.city__artist{
+    margin: 0;
+    grid-area: artist;
+    align-self: end;
+}

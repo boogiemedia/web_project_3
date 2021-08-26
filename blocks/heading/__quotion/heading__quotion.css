@@ -1,0 +1,17 @@
+.heading__quotion{
+    margin:  0;
+    padding: 0;
+    text-align: left;
+    max-width: 984px;
+    padding-top: 92px;
+    
+}
+
+
+@media screen  and (max-width:768px){
+
+    .heading__quotion{
+        margin: 0 auto  0;
+        width: calc(100% - 48px);
+    }
+}

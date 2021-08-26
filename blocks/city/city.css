@@ -1,0 +1,27 @@
+.city {
+  width: 100%;
+  font-family: inter;
+  color: white;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  column-gap: 40px;
+  grid-row-gap: 48px;
+  text-align: left;
+  grid-template-areas:
+    "title artist"
+    "image text"
+    "button text"
+    "button .";
+}
+
+@media screen  and (max-width:768px){
+
+  .city {
+      margin: 0 auto  0;
+      width: calc(100% - 48px);
+      grid-template-columns: 340px 1fr;
+      column-gap: 28px;
+      grid-row-gap: 48px;
+  }
+}

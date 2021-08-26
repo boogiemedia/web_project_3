@@ -1,0 +1,17 @@
+.header__logo-text {
+  margin: 20px auto 0;
+  color: white;
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo-text {
+    font-size: 15px;
+  line-height: 15px;
+
+  }
+}

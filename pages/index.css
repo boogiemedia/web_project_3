@@ -1,0 +1,58 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/Header/header.css);
+@import url(../blocks/Header/__logo/header__logo-image.css);
+@import url(../blocks/Header/__logo/header__logo-text.css);
+
+/*******************end of header*****************************/
+
+@import url(../blocks/main/main.css);
+
+@import url(../blocks/heading/heading.css);
+@import url(../blocks/heading/__title/heading__title.css);
+@import url(../blocks/heading/__subtitle/heading__subtitle.css);
+@import url(../blocks/heading/__image/heading__image.css);
+@import url(../blocks/heading/__quotion/heading__quotion-title.css);
+@import url(../blocks/heading/__quotion/heading__quotion.css);
+@import url(../blocks/heading/__quotion/heading__quotion-text.css);
+@import url(../blocks/heading/__quotion/heading__quotion-name.css);
+@import url(../blocks/heading/__text/heading__text.css);
+
+/*******************end of heading*****************************/
+
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+
+/*******************end of gallery*****************************/
+
+@import url(../blocks/cities/cities.css);
+@import url(../blocks/city/city.css);
+
+@import url(../blocks/city/__name/city__name.css);
+
+@import url(../blocks/city/__artist/city__artist.css);
+@import url(../blocks/city/__artist/city__artist-title.css);
+@import url(../blocks/city/__artist/city__artist-name.css);
+
+@import url(../blocks/city/__image/city__image.css);
+@import url(../blocks/city/__text/city__text.css);
+@import url(../blocks/city/__text/city__text-box.css);
+@import url(../blocks/city/__button/city__button.css);
+@import url(../blocks/city/__button/city__button-text.css);
+
+/*******************end of cities*****************************/
+
+@import url(../blocks/visit/visit.css);
+@import url(../blocks/visit/__title/visit__title.css);
+@import url(../blocks/visit/__text/visit__text.css);
+
+@import url(../blocks/visit/__button/visit__button.css);
+@import url(../blocks/visit/__button/visit__button-text.css);
+
+/*******************end of visit*****************************/
+
+@import url(../blocks/footer/__text/footer__text.css);
+

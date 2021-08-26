@@ -1,0 +1,9 @@
+.main {
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  margin: auto ;
+  align-items: center;
+  text-align: center;
+  padding-top: 92px;
+}

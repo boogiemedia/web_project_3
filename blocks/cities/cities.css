@@ -1,0 +1,10 @@
+.cities {
+  padding-top: 92px;
+  max-width: 984px;
+  margin: auto;
+  margin-bottom: 90px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 80px;
+}
