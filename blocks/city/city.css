@@ -2,7 +2,7 @@
   width: 100%;
   font-family: inter;
   color: white;
-  margin: 0;
+  margin: auto;
   display: grid;
   grid-template-columns: 460px 1fr;
   column-gap: 40px;
@@ -13,6 +13,16 @@
     "image text"
     "button text"
     "button .";
+}
+@media screen  and (max-width:1040px){
+
+  .city {
+      margin: 0 24px 0;
+      width: calc(100% - 48px);
+      grid-template-columns: 340px 1fr;
+      column-gap: 28px;
+      grid-row-gap: 48px;
+  }
 }
 
 @media screen  and (max-width:768px){
