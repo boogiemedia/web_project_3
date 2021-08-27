@@ -13,3 +13,11 @@
     line-height: 46px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .city__name {
+    margin: 0 16px;
+    font-size: 32px;
+    line-height: 46px;
+  }
+}

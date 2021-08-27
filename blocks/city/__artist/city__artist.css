@@ -3,3 +3,8 @@
     grid-area: artist;
     align-self: end;
 }
+@media screen and (max-width: 320px){
+    .city__artist {
+        margin: 0 16px;
+    }
+}

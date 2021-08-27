@@ -1,7 +1,9 @@
-.city__button-text{
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 22px;
-color: white;
+.city__button-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: white;
 }

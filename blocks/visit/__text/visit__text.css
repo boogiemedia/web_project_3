@@ -6,3 +6,10 @@
   line-height: 22px;
   max-width: 320px;
 }
+@media screen and (max-width: 320px) {
+  .visit__title {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 auto 16px;
+  }
+}

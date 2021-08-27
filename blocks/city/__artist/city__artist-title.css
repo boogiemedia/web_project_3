@@ -8,3 +8,8 @@
   margin-bottom: 8px;
 
 }
+@media screen and (max-width: 320px){
+  .city__artist-title {
+      margin-bottom: 12px;
+  }
+}

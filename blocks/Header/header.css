@@ -9,3 +9,11 @@
     padding-top: 34px;
     padding-bottom: 92px;
 }
+
+@media screen and (max-width: 320px){
+.header{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+}
