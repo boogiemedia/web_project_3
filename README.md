@@ -14,4 +14,4 @@ This is a project about traveling across the US. We've made it so all the elemen
 * This project bulit with flex box and grid elements to allow responsive website
 
 **The link to GitHub Pages**
-
+http://boogiemedia/web_project_3/index
