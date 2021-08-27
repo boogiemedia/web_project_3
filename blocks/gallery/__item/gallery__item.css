@@ -1,3 +1,10 @@
-.gallery__item{
+.gallery__item {
     width:100%;
+    transition: 0.3s;
+}
+
+.gallery__item:hover {
+    opacity: 0.5;   
+    background-color: black;
+
 }

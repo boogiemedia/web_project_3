@@ -1,12 +1,13 @@
 .visit__button {
-    margin: 32px auto 0;
+  margin: 32px auto 0;
   background: #0278fe;
   width: 137px;
   height: 48px;
   border-radius: 4px;
-  border: none;
-
+  display: flex;
+  align-items: center;
 }
+
 @media screen and (max-width: 320px) {
   .visit__button {
     margin: 16px auto 0;
