@@ -22,7 +22,7 @@
     width: calc(100% - 32px);
     padding-top: 90px;
     display: grid;
-    grid-template-columns:  1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 1fr);
     grid-gap: 12px;
   }

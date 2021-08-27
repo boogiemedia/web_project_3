@@ -1,25 +1,25 @@
-.visit{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    margin: auto 0;
-    background-image: url("../../images/background.png");
-    background-size: cover;
-    max-width: 1184px;
-    width: 100vw;
-    height: 100vh;
-    max-height: 740px;
-    transition: 0.3s;
+.visit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  margin: auto 0;
+  background-image: url("../../images/background.png");
+  background-size: cover;
+  max-width: 1184px;
+  width: 100vw;
+  height: 100vh;
+  max-height: 740px;
+  transition: 0.3s;
 }
 
 .visit:hover {
-    background-color: black;
-    opacity: 0.8;
+  background-color: black;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {
-    .visit {
+  .visit {
     height: 254px;
-    }
   }
+}
