@@ -1,5 +1,5 @@
 .visit {
-  position: relative; 
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,20 +9,18 @@
   width: 100%;
   height: 100vh;
   max-height: 740px;
-  
 }
-  .visit::before {   
-    content: "";
-    background-image: url("../../images/background.png");
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    z-index: -1;
-    transition: 0.3s;
-
+.visit::before {
+  content: "";
+  background-image: url("../../images/background.png");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+  transition: 0.3s;
 }
 
 .visit:hover:before {

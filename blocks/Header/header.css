@@ -1,19 +1,18 @@
-.header{
-    display: flex;
-    flex-direction:column;
-    font-family: 'Inter', sans-serif;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 0;
-    padding: 0;
-    padding-top: 34px;
-    padding-bottom: 92px;
+.header {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 0;
+  padding: 0;
+  padding-top: 34px;
+  padding-bottom: 92px;
 }
 
-@media screen and (max-width: 320px){
-.header{
+@media screen and (max-width: 320px) {
+  .header {
     padding-top: 20px;
     padding-bottom: 50px;
-}
-
+  }
 }

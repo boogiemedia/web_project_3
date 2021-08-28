@@ -9,8 +9,8 @@
   grid-gap: 80px;
 }
 
-@media screen and (max-width: 320px){
-  .cities{
+@media screen and (max-width: 320px) {
+  .cities {
     padding-top: 64px;
     margin-bottom: 64px;
   }
