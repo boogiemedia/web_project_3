@@ -11,7 +11,7 @@
 }
 
 .city__button:hover {
-  background: #0063d2;
+  background: #0063D2;
 }
 @media screen and (max-width: 320px) {
   .city__button {
