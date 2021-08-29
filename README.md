@@ -14,4 +14,8 @@ This is a project about traveling across the US. We've made it so all the elemen
 * This project bulit with flex box and grid elements to allow responsive website
 
 **The link to GitHub Pages**
-https://boogiemedia.github.io/web_project_3/
+in some reason the file .nojekyll didnt worked and webpage provided incorrect
+https://boogiemedia.github.io/web_project_3/**
+
+**Working link to website**
+http://practicum-p3.boogiemedia.co.il/
