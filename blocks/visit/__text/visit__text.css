@@ -6,6 +6,9 @@
   line-height: 22px;
   max-width: 320px;
 }
+.span{
+  display: block;
+}
 @media screen and (max-width: 320px) {
   .visit__title {
     font-size: 14px;

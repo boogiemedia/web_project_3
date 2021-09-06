@@ -6,6 +6,22 @@
   padding-top: 92px;
 }
 
+@media screen and (max-width: 1080px) {
+  .heading__quotion {
+    margin: 0 auto 0;
+    width: calc(100% - 60px);
+    padding-top: 64px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heading__quotion {
+    margin: 0 auto 0;
+    width: calc(100% - 48px);
+    padding-top: 64px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .heading__quotion {
     margin: 0 auto 0;

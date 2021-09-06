@@ -1,7 +1,7 @@
 .header {
   display: flex;
   flex-direction: column;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
   align-items: center;
   justify-content: center;
   margin: 0 auto 0;

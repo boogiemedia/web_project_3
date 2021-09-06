@@ -1,4 +1,10 @@
 .heading__image {
   width: 100%;
   max-width: 984px;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.heading__image:hover{
+  filter: none;
 }
