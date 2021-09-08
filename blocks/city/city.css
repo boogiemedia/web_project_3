@@ -1,6 +1,6 @@
 .city {
   width: 100%;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   color: white;
   margin: auto;
   display: grid;
@@ -15,7 +15,6 @@
     "image text"
     "button text"
     " . text";
-    
 }
 
 @media screen and (max-width: 1040px) {
@@ -24,7 +23,6 @@
     column-gap: 28px;
   }
 }
-
 
 @media screen and (max-width: 767px) {
   .city {
@@ -38,4 +36,3 @@
       "button";
   }
 }
-
