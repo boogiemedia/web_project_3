@@ -1,10 +1,5 @@
 .city__text {
   margin: 0;
   grid-area: text;
-}
-@media screen and (max-width: 320px) {
-  .city__text {
-    font-size: 16px;
-    line-height: 26px;
-  }
+ 
 }

@@ -2,10 +2,16 @@
   margin: auto;
   max-width: 790px;
   color: white;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
+}
+
+@media screen and (max-width: 840px) {
+  .heading__title {
+    max-width: 700px;
+  }
 }
 
 @media screen and (max-width: 625px) {
@@ -23,6 +29,7 @@
 
 @media screen and (max-width: 400px) {
   .heading__title {
+    max-width: 300px;
     font-size: 46px;
   }
 }

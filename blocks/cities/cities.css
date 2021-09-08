@@ -1,6 +1,7 @@
 .cities {
   padding-top: 92px;
   max-width: 984px;
+  width: calc(100% - 48px);
   margin: auto;
   margin-bottom: 90px;
   display: grid;
@@ -9,8 +10,21 @@
   grid-gap: 80px;
 }
 
+@media screen and (max-width: 800px) {
+  .cities {
+
+    grid-gap: 72px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cities {
+    width: calc(100% - 32px);
+  }
+}
 @media screen and (max-width: 320px) {
   .cities {
+    grid-gap: 48px;
     padding-top: 64px;
     margin-bottom: 64px;
   }
