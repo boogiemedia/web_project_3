@@ -10,10 +10,8 @@
 @media screen and (max-width: 768px) {
   .gallery {
     width: calc(100% - 48px);
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    grid-gap: 16px;
   }
 }
 
@@ -21,7 +19,6 @@
   .gallery {
     width: calc(100% - 32px);
     padding-top: 90px;
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 1fr);
     grid-gap: 12px;

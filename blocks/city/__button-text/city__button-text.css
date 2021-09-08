@@ -1,0 +1,32 @@
+.city__button-text {
+  grid-area: button;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0278fe;
+  width: 248px;
+  height: 48px;
+  border-radius: 4px;
+  transition: 0.3s;
+  text-align: center;
+
+  
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: white;
+}
+
+.city__button-text:hover { 
+  background: #0063d2; 
+} 
+
+@media screen and (max-width: 320px) { 
+  .city__button-text { 
+    margin: auto; 
+  } 
+} 

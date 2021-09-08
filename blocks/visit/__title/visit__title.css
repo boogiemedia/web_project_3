@@ -4,6 +4,7 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
+  z-index: 1;
 }
 @media screen and (max-width: 320px) {
   .visit__title {

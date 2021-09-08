@@ -1,10 +1,18 @@
 .city__text-box {
   margin: 0;
   margin-bottom: 25px;
+  font-family: Inter;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
 }
 
 @media screen and (max-width: 320px) {
   .city__text-box {
     margin: 0 16px;
   }
+}
+
+.city__text-box:last-of-type {
+  margin-bottom: 0;
 }

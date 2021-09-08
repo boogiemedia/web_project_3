@@ -9,11 +9,7 @@
   </head>
   <body class="page">
     <header class="header">
-      <img
-        class="header__logo-image"
-        src="./images/Logo-practicum-gallery.svg"
-        alt="practicum-gallery"
-      />
+      <div class="header__logo-image"></div>
       <p class="header__logo-text">Practicum Art Gallery</p>
     </header>
 
@@ -23,33 +19,35 @@
         <p class="heading__subtitle">
           An epic journey from Kentucky to Burundi through Wales and Ukraine
         </p>
-        <img
-          src="./images/kategin-michail-1798.jpg"
-          alt="kategin-michail-1798"
-          class="heading__image"
-        />
-        <article class="heading__quotion">
-          <h2 class="heading__quotion-title">
-            Know the places your online pals come from a little better
-          </h2>
-          <p class="heading__quotion-text">
-            Every human being is an artist, a freedom being, called to
-            participate in transforming and reshaping the conditions, thinking,
-            and structures that shape and inform our lives.
-          </p>
-          <p class="heading__quotion-name">— Joseph Beuys</p>
-          <p class="heading__text">
-            The town of Practicum has brought together professionals from
-            different corners of the world. Today, Practicum Art Gallery is
-            proud to present stories and pictures from some of the people who
-            dedicate their time and effort to making the future tech
-            professionals of this town feel at home. Each of us has a unique
-            story about the place we come from. Feel free to add your own story
-            and a piece of visual art dedicated to your hometown to our
-            collection. No matter where you're from, we're glad that you're our
-            neighbor.
-          </p>
-        </article>
+        ,
+        <figure>
+          <img
+            src="./images/kategin-michail-1798.jpg"
+            alt="kategin-michail-1798"
+            class="heading__image"
+          />
+        </figure>
+      </section>
+      <section class="heading__quotion">
+        <h2 class="heading__quotion-title">
+          Know the places your online pals come from a little better
+        </h2>
+        <blockquote class="heading__quotion-text">
+          Every human being is an artist, a freedom being, called to participate
+          in transforming and reshaping the conditions, thinking, and structures
+          that shape and inform our lives.
+        </blockquote>
+        <p class="heading__quotion-name">— Joseph Beuys</p>
+        <p class="heading__text">
+          The town of Practicum has brought together professionals from
+          different corners of the world. Today, Practicum Art Gallery is proud
+          to present stories and pictures from some of the people who dedicate
+          their time and effort to making the future tech professionals of this
+          town feel at home. Each of us has a unique story about the place we
+          come from. Feel free to add your own story and a piece of visual art
+          dedicated to your hometown to our collection. No matter where you're
+          from, we're glad that you're our neighbor.
+        </p>
       </section>
 
       <div class="gallery">
@@ -75,7 +73,11 @@
           alt="green-sign"
           class="gallery__item"
         />
-        <img src="./images/gallery/7.jpg" alt="fig-vama" class="gallery__item" />
+        <img
+          src="./images/gallery/7.jpg"
+          alt="fig-vama"
+          class="gallery__item"
+        />
         <img src="./images/gallery/8.jpg" alt="houses" class="gallery__item" />
       </div>
       <section class="cities">
@@ -107,9 +109,8 @@
               even by people who live on the far outskirts of the right one.
             </p>
           </div>
-          <div class="city__button">
-            <a href="#" class="city__button-text">Buy this artwork as NFT</a>
-          </div>
+
+          <a href="#" class="city__button-text">Buy this artwork as NFT</a>
         </div>
 
         <div class="city">
@@ -120,7 +121,11 @@
               Natalia Dolgushina, content producer
             </p>
           </div>
-          <img src="./images/cities/wales.png" alt="wales" class="city__image" />
+          <img
+            src="./images/cities/wales.png"
+            alt="wales"
+            class="city__image"
+          />
           <div class="city__text">
             <p class="city__text-box">
               Kyiv (or Kiev), Ukraine's capital, is a large city located on the
@@ -140,9 +145,7 @@
               even by people who live on the far outskirts of the right one.
             </p>
           </div>
-          <div class="city__button">
-            <a href="#" class="city__button-text">Buy this artwork as NFT</a>
-          </div>
+          <a href="#" class="city__button-text">Buy this artwork as NFT</a>
         </div>
 
         <div class="city">
@@ -151,7 +154,11 @@
             <p class="city__artist-title">Artist</p>
             <p class="city__artist-name">Travis Turner, author and editor</p>
           </div>
-          <img src="./images/cities/berea.png" alt="berea" class="city__image" />
+          <img
+            src="./images/cities/berea.png"
+            alt="berea"
+            class="city__image"
+          />
           <div class="city__text">
             <p class="city__text-box">
               Berea is a small town located in the central part of Kentucky. The
@@ -171,9 +178,7 @@
               student receives a full-tuition scholarship.
             </p>
           </div>
-          <div class="city__button">
-            <a href="#" class="city__button-text">Buy this artwork as NFT</a>
-          </div>
+          <a href="#" class="city__button-text">Buy this artwork as NFT</a>
         </div>
 
         <div class="city">
@@ -214,9 +219,7 @@
               rivers and streams which provide water around the country.
             </p>
           </div>
-          <div class="city__button">
-            <a href="#" class="city__button-text">Buy this artwork as NFT</a>
-          </div>
+          <a href="#" class="city__button-text">Buy this artwork as NFT</a>
         </div>
 
         <div class="city">
@@ -242,18 +245,17 @@
               with a lot of new projects in "underconstruction" status
             </p>
           </div>
-          <div class="city__button">
             <a href="#" class="city__button-text">Buy this artwork as NFT</a>
-          </div>
         </div>
       </section>
 
       <section class="visit">
         <h3 class="visit__title">Visit us</h3>
-        <p class="visit__text"><span class="span">Year-round</span> Practicum Art Gallery 404 Tim Berners-Lee Ave</p>
-        <div class="visit__button">
+        <p class="visit__text">
+         Year-round Practicum&nbsp;Art&nbsp;Gallery
+          404 Tim Berners-Lee Ave
+        </p>
           <a href="#" class="visit__button-text">Buy tickets</a>
-        </div>
       </section>
     </main>
     <footer class="footer">

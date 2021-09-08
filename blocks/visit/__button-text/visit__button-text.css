@@ -1,8 +1,30 @@
 .visit__button-text {
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px auto 0;
+  background: #0278fe;
+  width: 137px;
+  height: 48px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+  z-index: 1;
+
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
   color: white;
   text-decoration: none;
+}
+
+.visit__button-text:hover {
+  background: #0063d2;
+}
+
+@media screen and (max-width: 320px) {
+  .visit__button-text {
+    margin: 16px auto 0;
+  }
 }

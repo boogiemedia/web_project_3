@@ -2,6 +2,7 @@
   margin: auto;
   width: 32px;
   height: 32px;
+  background-image: url(../../../images/Logo-practicum-gallery.svg);
 }
 @media screen and (max-width: 320px) {
   .header__logo-image {

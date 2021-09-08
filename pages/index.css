@@ -1,9 +1,9 @@
 @import url(../vendor/normalize.css);
-@import url(../fonts/fonts.css);
+@import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/page/page.css);
 
-@import url(../blocks/Header/header.css);
+@import url(../blocks/header/header.css);
 @import url(../blocks/Header/__logo-image/header__logo-image.css);
 @import url(../blocks/Header/__logo-text/header__logo-text.css);
 
@@ -16,7 +16,7 @@
 @import url(../blocks/heading/__subtitle/heading__subtitle.css);
 @import url(../blocks/heading/__image/heading__image.css);
 @import url(../blocks/heading/__quotion/heading__quotion.css);
-@import url(../blocks/heading/quotion-title/heading__quotion-title.css);
+@import url(../blocks/heading/__quotion-title/heading__quotion-title.css);
 @import url(../blocks/heading/__quotin-text/heading__quotion-text.css);
 @import url(../blocks/heading/__quotin-name/heading__quotion-name.css);
 @import url(../blocks/heading/__text/heading__text.css);
@@ -39,9 +39,8 @@
 
 @import url(../blocks/city/__image/city__image.css);
 @import url(../blocks/city/__text/city__text.css);
-@import url(../blocks/city/__text/city__text-box.css);
-@import url(../blocks/city/__button/city__button.css);
-@import url(../blocks/city/__button/city__button-text.css);
+@import url(../blocks/city/__text-box/city__text-box.css);
+@import url(../blocks/city/__button-text/city__button-text.css);
 
 /*******************end of cities*****************************/
 
