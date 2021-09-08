@@ -7,8 +7,6 @@
   width: 137px;
   height: 48px;
   border-radius: 4px;
-  display: flex;
-  align-items: center;
   transition: 0.3s;
   z-index: 1;
 

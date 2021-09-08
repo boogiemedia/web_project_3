@@ -24,6 +24,7 @@
 /*******************end of heading*****************************/
 
 @import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__block/gallery__block.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
 
 /*******************end of gallery*****************************/

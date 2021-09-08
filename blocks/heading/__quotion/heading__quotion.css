@@ -16,12 +16,12 @@
 
 @media screen and (max-width: 768px) {
   .heading__quotion {
-    width: calc(100% - 48px)
+    width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 320px) {
   .heading__quotion { 
-    width: calc(100% - 32px)
+    width: calc(100% - 32px);
   }
 }
