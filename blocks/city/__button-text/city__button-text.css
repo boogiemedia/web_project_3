@@ -10,9 +10,8 @@
   transition: 0.3s;
   text-align: center;
 
-  
   margin: 0;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -21,13 +20,13 @@
   color: white;
 }
 
-.city__button-text:hover { 
-  background: #0063d2; 
-} 
+.city__button-text:hover {
+  background: #0063d2;
+}
 
-@media screen and (max-width: 320px) { 
-  .city__button-text { 
-    margin: auto; 
+@media screen and (max-width: 320px) {
+  .city__button-text {
+    margin: auto;
     width: 100%;
-  } 
-} 
+  }
+}
