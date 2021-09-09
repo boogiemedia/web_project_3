@@ -1,27 +1,27 @@
-.heading__quotion {
-  margin: 0;
-  padding: 0;
-  text-align: left;
+.intro {
   max-width: 984px;
-  padding-top: 92px;
+  margin: 92px 0 0;
+  color: white;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 @media screen and (max-width: 1080px) {
-  .heading__quotion {
+  .intro {
     margin: 0 auto 0;
     width: calc(100% - 60px);
-    padding-top: 88px;
+    margin: 88px 0 0;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .heading__quotion {
+  .intro {
     width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 320px) {
-  .heading__quotion { 
+  .intro {
     width: calc(100% - 32px);
+    margin: 64px 0 0;
   }
 }

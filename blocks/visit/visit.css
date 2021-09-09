@@ -12,6 +12,7 @@
   height: 100vh;
   max-height: 740px;
   z-index: 0;
+  text-align: center;
 }
 .visit::before {
   content: "";

@@ -15,13 +15,15 @@
 @import url(../blocks/heading/__title/heading__title.css);
 @import url(../blocks/heading/__subtitle/heading__subtitle.css);
 @import url(../blocks/heading/__image/heading__image.css);
-@import url(../blocks/heading/__quotion/heading__quotion.css);
-@import url(../blocks/heading/__quotion-title/heading__quotion-title.css);
-@import url(../blocks/heading/__quotin-text/heading__quotion-text.css);
-@import url(../blocks/heading/__quotin-name/heading__quotion-name.css);
-@import url(../blocks/heading/__text/heading__text.css);
 
 /*******************end of heading*****************************/
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__quotion/intro__quotion.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro-text.css);
+@import url(../blocks/intro/__name/intro__name.css);
+
+/*******************end of intro*****************************/
 
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__block/gallery__block.css);

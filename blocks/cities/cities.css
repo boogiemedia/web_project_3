@@ -20,12 +20,12 @@
 @media screen and (max-width: 767px) {
   .cities {
     width: calc(100% - 32px);
+    padding-top: 64px;
+    margin-bottom: 64px;
   }
 }
 @media screen and (max-width: 320px) {
   .cities {
     grid-gap: 48px;
-    padding-top: 64px;
-    margin-bottom: 64px;
   }
 }
