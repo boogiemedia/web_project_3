@@ -1,9 +1,8 @@
 .header__logo-image {
-  margin: auto;
+  margin: 32px auto 0;
   width: 32px;
   height: 32px;
   background-image: url(../../../images/Logo-practicum-gallery.svg);
-  margin-top: 34px;
 }
 @media screen and (max-width: 320px) {
   .header__logo-image {
