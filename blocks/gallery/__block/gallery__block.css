@@ -1,4 +1,4 @@
-.gallery-block{
+.gallery__block{
 margin: 0;
 display: grid;
 grid-gap: 16px;
@@ -6,7 +6,7 @@ grid-template-columns: 1fr 1fr;
 }
 
 @media screen and (max-width: 760px) {
-    .gallery-block {
+    .gallery__block {
       grid-gap: 12px;
       grid-template-columns: 1fr;
     }
