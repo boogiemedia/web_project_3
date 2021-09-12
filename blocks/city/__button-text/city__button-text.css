@@ -1,4 +1,5 @@
 .city__button-text {
+  margin: 48px 0 0;
   grid-area: button;
   display: flex;
   justify-content: center;
@@ -10,7 +11,6 @@
   transition: 0.3s;
   text-align: center;
 
-  margin: 0;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -27,6 +27,6 @@
 @media screen and (max-width: 320px) {
   .city__button-text {
     margin: auto;
-    width: 100%;
+    width: calc(100% - 32px);
   }
 }

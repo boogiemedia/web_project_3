@@ -1,5 +1,5 @@
 .city__name {
-  margin: 0;
+  margin: 0 0 48px;
   grid-area: title;
   font-style: normal;
   font-weight: 900;
@@ -16,7 +16,8 @@
 
 @media screen and (max-width: 320px) {
   .city__name {
-    margin: 0 16px;
+    width: calc(100% - 32px);
+    margin: auto;
     font-size: 32px;
   }
 }

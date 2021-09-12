@@ -8,3 +8,15 @@
 .heading__image:hover{
   filter: none;
 }
+
+@media screen and (max-width: 768px){
+  .heading__image{
+    max-height: 450px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .heading__image{
+    max-height: 187px;
+  }
+}

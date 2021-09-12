@@ -5,13 +5,10 @@
   margin: auto;
   display: grid;
   grid-template-columns: 460px 1fr;
-  grid-template-rows: auto;
   column-gap: 40px;
-  grid-row-gap: 48px;
   text-align: left;
   grid-template-areas:
     "title artist"
-    "image text"
     "image text"
     "button text"
     " . text";

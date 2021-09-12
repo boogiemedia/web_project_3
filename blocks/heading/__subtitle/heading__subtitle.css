@@ -10,7 +10,7 @@
   line-height: 36px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .heading__subtitle {
   margin-bottom: 36px;
   }
@@ -20,6 +20,6 @@
   .heading__subtitle {
     font-size: 16px;
     line-height: 20px;
-    margin: 32px 16px 016px;
+    margin: 16px 16px 40px;
   }
 }

@@ -8,6 +8,10 @@
   text-align: center;
   text-transform: uppercase;
 }
+@media screen and (max-width: 768px) {
+  .header__logo-text {
+    margin: 20px auto 80px;}
+  }
 
 @media screen and (max-width: 320px) {
   .header__logo-text {

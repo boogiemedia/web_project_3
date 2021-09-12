@@ -2,3 +2,12 @@
   grid-area: image;
   width: 100%;
 }
+
+@media screen and (max-width: 767px) {
+  .city__image:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  
+  }
+}
